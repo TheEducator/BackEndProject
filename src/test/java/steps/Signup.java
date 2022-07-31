@@ -9,7 +9,7 @@ public class Signup extends Common{
 	
 	@Given("User is on main page and clicks sign up button and verifys new user sign up visible")
 	public void user_is_on_main_page_and_clicks_sign_up_button_and_verifys_new_user_sign_up_visible() {
-	  
+	  setUp();
 	}
 
 	@Given("User enters credentials and clicks sign up button")
